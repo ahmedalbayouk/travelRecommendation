@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer</title>
+    <link rel="stylesheet" href="travelRecommendation.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Travel Explorer</div>
+
+        <ul class="nav-links">
+            <li><a href="travel_recommendation.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Enter beach, temple or country"
+            >
+            <button id="searchBtn">Search</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Explore the World</h1>
+
+                <p>
+                    Discover beautiful destinations, amazing beaches,
+                    ancient temples, and fascinating countries around
+                    the world.
+                </p>
+
+                <button class="book-btn">Book Now</button>
+            </div>
+        </section>
+
+        <section id="results" class="results"></section>
+
+    </main>
+
+    <script src="travel_recommendation.js"></script>
+
+</body>
+</html>
