@@ -5,7 +5,6 @@ const results = document.getElementById("results");
 
 let travelData = null;
 
-
 // Fetch the JSON data
 fetch("travel_recommendation_api.json")
     .then(response => response.json())
@@ -16,7 +15,6 @@ fetch("travel_recommendation_api.json")
     .catch(error => {
         console.error("Error loading travel data:", error);
     });
-
 
 // Search button
 searchBtn.addEventListener("click", function () {
